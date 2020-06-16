@@ -1,0 +1,11 @@
+#include <ntverp.h>
+#include <winver.h>
+
+#define VER_FILETYPE VFT_APP
+#define VER_FILESUBTYPE VFT2_UNKNOWN
+#define VER_FILEDESCRIPTION_STR "Networking UnitTests Library"
+
+#define VER_INTERNALNAME_STR     "MicroMockTest.Dll"
+#define VER_ORIGINALFILENAME_STR "MicroMockTest.Dll"
+
+#include <common.ver>

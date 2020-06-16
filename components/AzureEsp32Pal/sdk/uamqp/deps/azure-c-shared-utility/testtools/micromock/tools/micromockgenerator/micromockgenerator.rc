@@ -1,0 +1,11 @@
+#include <ntverp.h>
+#include <winver.h>
+
+#define VER_FILETYPE VFT_APP
+#define VER_FILESUBTYPE VFT2_UNKNOWN
+#define VER_FILEDESCRIPTION_STR "MicroMock Generator"
+
+#define VER_INTERNALNAME_STR     "MicroMockGenerator.Exe"
+#define VER_ORIGINALFILENAME_STR "MicroMockGenerator.Exe"
+
+#include <common.ver>
