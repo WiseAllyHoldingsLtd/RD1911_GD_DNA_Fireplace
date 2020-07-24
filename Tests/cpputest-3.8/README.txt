@@ -1,1 +1,0 @@
-Compiled from cpputest source on msys32
